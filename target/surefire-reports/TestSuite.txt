@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.784 sec <<< FAILURE!
+logintest(com.qa.shoClues.testcases.LoginTestCase)  Time elapsed: 2.853 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: org.apache.xmlbeans.XmlOptions.setUseDefaultNamespace(Z)Lorg/apache/xmlbeans/XmlOptions;
+	at org.apache.poi.xssf.model.SharedStringsTable.<clinit>(SharedStringsTable.java:96)
+	at org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:61)
+	at org.apache.poi.ooxml.POIXMLDocumentPart.read(POIXMLDocumentPart.java:660)
+	at org.apache.poi.ooxml.POIXMLDocument.load(POIXMLDocument.java:165)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:278)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:299)
+	at com.qa.shopClues.pages.LoginPage.testLoginModule(LoginPage.java:38)
+	at com.qa.shoClues.testcases.LoginTestCase.logintest(LoginTestCase.java:28)
+

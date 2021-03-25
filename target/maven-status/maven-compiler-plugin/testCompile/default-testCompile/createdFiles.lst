@@ -1,0 +1,4 @@
+com\qa\shopClues\utils\ShopcluesUtil.class
+com\qa\shopClues\Base\TestBase.class
+com\qa\shoClues\testcases\LoginTestCase.class
+com\qa\shopClues\pages\LoginPage.class
